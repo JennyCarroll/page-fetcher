@@ -24,3 +24,5 @@ const fetcher = (URL, localFilePath) => {
 };
 
 fetcher(args[0], args[1]);
+
+// this is what you would input into the command line: node fetcher.js http://www.example.edu/ ./index.html
